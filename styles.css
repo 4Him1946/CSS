@@ -1,16 +1,31 @@
 body {
   background-color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .menu {
   width: 400px;
   height: 50px;
   background-color: #00d1ae;
+  /* margin:10px 5px 1px 15px; */
+  margin: 10px;
 }
 .content {
   width: 400px;
   height: 200px;
   background-color: red;
+  /* border-width: 5px;
+  border-color: purple;
+  border-style: dashed; */
+  border: 1px solid purple;
+  /* padding: 20px 10px 30px; */
+  padding-top: 5px;
+  padding-left: 50px;
 }
 h2 {
   color: hotpink;
+  font-style: oblique;
+  font-weight: 800;
+  text-transform: lowercase;
+  text-decoration: overline;
+  text-align: center;
 }
