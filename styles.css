@@ -9,6 +9,9 @@ body {
   /* margin:10px 5px 1px 15px; */
   margin: 10px;
 }
+.menu:hover {
+  background-color: purple;
+}
 .content {
   width: 400px;
   height: 200px;
@@ -29,3 +32,44 @@ h2 {
   text-decoration: overline;
   text-align: center;
 }
+li {
+  list-style: square inside;
+}
+table {
+  border: 1px black solid;
+  width: 350px;
+  height: 150px;
+}
+th {
+  text-align: center;
+  vertical-align: top;
+  padding: 20px;
+}
+td {
+  text-align: left;
+  vertical-align: bottom;
+  padding: 20px;
+}
+tr:hover {
+  color: white;
+}
+input {
+  width: 100%;
+  /* height: 75px; */
+  padding: 2px;
+  border: 3px solid hotpink;
+  border-radius: 50px;
+  background-color: black;
+  color: hotpink;
+  /* background-image: url("doggy.jpg");
+  background-position: center; */
+}
+input:focus {
+  outline: none;
+}
+input:hover {
+  border: 5px dashed orange;
+}
+/* textarea {
+  resize: none;
+} */
